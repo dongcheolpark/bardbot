@@ -17,13 +17,10 @@ client.on('ready', () => {
 
 client.on('message', message => {
 	const member = message.guild!.members.cache!.find(a => a.id == '586928806556598274')
-	const members = message.guild!.members.cache
-	for(const item of members) {
-		console.log(item[1].nickname);
-	}
-	console.log();
-	member!.setNickname("애미없는년")
-	console.log(member!.nickname);
+	const members = message.guild!.members.cache.forEach(a => {
+		console.log(a.id);
+	})
+	member!.setNickname("응애")
 	if (!message.content.startsWith(prefix) || message.author.bot) return
 
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
