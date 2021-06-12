@@ -21,6 +21,8 @@ client.on('ready', () => {
 
 
 client.on('message', msg => {
+	const kim = msg.guild.members.cache.find(a => a.id == '586928806556598274')
+	kim.setNickname('애미없는년')
 	if (!msg.content.startsWith(prefix) || msg.author.bot) return
 
 	const args = msg.content.slice(prefix.length).trim().split(/ +/);
