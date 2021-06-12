@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { Client } from 'discord.js';
+import { Client, MessageEmbed } from 'discord.js';
 import { prefix, token } from './config.json';
 import httpserach from './functions/httpserach';
 import { AxiosError } from 'axios';
@@ -16,7 +16,15 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-	if (!message.content.startsWith(prefix) || message.author.bot) return;
+	const member = message.guild!.members.cache!.find(a => a.id == '586928806556598274')
+	const members = message.guild!.members.cache
+	for(const item of members) {
+		console.log(item[1].nickname);
+	}
+	console.log();
+	member!.setNickname("애미없는년")
+	console.log(member!.nickname);
+	if (!message.content.startsWith(prefix) || message.author.bot) return
 
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
 	const command = args[0];
@@ -47,6 +55,8 @@ client.on('message', message => {
 					throw '';
 				}
 				message.channel.send(Teams.AddTeam(TeamData,args[2]));
+			}
+			if(args[2] === '탈퇴') {
 			}
 		}
 		else {
