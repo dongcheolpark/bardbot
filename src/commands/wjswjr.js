@@ -1,10 +1,10 @@
-const httpserach = require('../functions/httpserach.js');
+const {makeEmbedMessage} = require('../functions/httpserach.js');
 
 module.exports = {
 	name : "전적",
 	execute(msg,args) {
-		httpserach.makeEmbedMessage(args[0]).then((embmsg) => {
-			message.channel.send(embmsg);
+		makeEmbedMessage(args[0]).then((embmsg) => {
+			msg.channel.send(embmsg);
 		})
 		.catch((error) => {
 			if ((error).isAxiosError) {
@@ -12,7 +12,7 @@ module.exports = {
 				console.log(axioserror.request);
 			}
 			console.log(error.message);
-			message.channel.send('에러가 발생했습니다.');
+			msg.channel.send('에러가 발생했습니다.');
 		})
 	}
 }

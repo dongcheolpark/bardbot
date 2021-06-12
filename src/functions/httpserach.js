@@ -27,31 +27,32 @@ function makeTierField(SummonerInfo) {
     return [solofiled , flexfiled];
 }
 
-async function makeEmbedMessage(name) {
-    let embmsg = new discord.MessageEmbed()
-        .setColor("#0099ff")
-        .setURL(`http://fow.kr/find/${encodeURI(name)}`)
-        .setAuthor('FOW.KR','','http://fow.kr/');
-    const red = '#FF0000';
-    const blue = '#0099ff';
+
+module.exports = {
+    async makeEmbedMessage(name) {
+        let embmsg = new discord.MessageEmbed()
+            .setColor("#0099ff")
+            .setURL(`http://fow.kr/find/${encodeURI(name)}`)
+            .setAuthor('FOW.KR','','http://fow.kr/');
+        const red = '#FF0000';
+        const blue = '#0099ff';
 
 
-    let SummonerInfo;
-    try {
-        SummonerInfo = await fow.GetSummonerInfo(name);
+        let SummonerInfo;
+        try {
+            SummonerInfo = await fow.GetSummonerInfo(name);
+        }
+        catch {
+            return embmsg.setTitle('존재 하지 않는 소환사').setColor(red);
+        }
+        if(SummonerInfo == null) {
+            return embmsg.setTitle('존재 하지 않는 소환사').setColor(red);
+        }
+        const tiermedal = await fow.GetTierMedal(name);
+        embmsg = embmsg
+            .setTitle(name)
+            .setThumbnail(tiermedal)
+            .addFields(makeTierField(SummonerInfo));
+        return embmsg;
     }
-    catch {
-        return embmsg.setTitle('존재 하지 않는 소환사').setColor(red);
-    }
-    if(SummonerInfo == null) {
-        return embmsg.setTitle('존재 하지 않는 소환사').setColor(red);
-    }
-    const tiermedal = await fow.GetTierMedal(name);
-    embmsg = embmsg
-        .setTitle(name)
-        .setThumbnail(tiermedal)
-        .addFields(makeTierField(SummonerInfo));
-    return embmsg;
 }
-
-exports.makeEmbedMessage = makeEmbedMessage();

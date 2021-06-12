@@ -6,7 +6,7 @@ const { prefix, token } = require('./config.json');
 const client = new discord.Client();
 
 const commands = new discord.Collection();
-const commandsfiles = ['ping.js','응애.js','전적.js','느금마.js']
+const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','smrmaak.js']
 
 for(const item of commandsfiles) {
 	const command = require(`./commands/${item}`);
@@ -18,17 +18,18 @@ client.on('ready', () => {
 });
 
 
-client.on('message', message => {
-	if (!message.content.startsWith(prefix) || message.author.bot) return
+client.on('message', msg => {
+	if (!msg.content.startsWith(prefix) || msg.author.bot) return
 
-	const args = message.content.slice(prefix.length).trim().split(/ +/);
+	const args = msg.content.slice(prefix.length).trim().split(/ +/);
 	const commandname = args.shift();
 	const command = commands.get(commandname);
 	try {
-		command.execute(msg,arg);
+		command.execute(msg,args);
 	}
-	catch {
-		message.channel.send("잘못된 명령입니다.");
+	catch(error) {
+		console.log(error);
+		msg.channel.send("잘못된 명령입니다.");
 	}
 });
 
