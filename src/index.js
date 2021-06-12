@@ -6,7 +6,9 @@ const { prefix, token } = require('./config.json');
 const client = new discord.Client();
 
 const commands = new discord.Collection();
-const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','smrmaak.js']
+const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','smrmaak.js','addteam.js','removeteams.js','jointeam.js']
+
+const teamlist = new discord.Collection();
 
 for(const item of commandsfiles) {
 	const command = require(`./commands/${item}`);
@@ -25,7 +27,7 @@ client.on('message', msg => {
 	const commandname = args.shift();
 	const command = commands.get(commandname);
 	try {
-		command.execute(msg,args);
+		command.execute(msg,args,teamlist);
 	}
 	catch(error) {
 		console.log(error);
