@@ -3,7 +3,7 @@
   "scripts": {
     "prod": "npm run build && node src/index.js",
     "build": "tsc",
-    "start": "node index.js",
+    "start": "node src/index.js",
     "dev": "nodemon -L src/index.js"
   },
   "dependencies": {
