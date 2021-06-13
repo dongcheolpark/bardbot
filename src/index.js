@@ -1,6 +1,7 @@
 const fs = require('fs');
 const discord = require('discord.js')
 const { prefix, token } = require('./config.json');
+const makelog = require('./makelog.js');
 
 
 const client = new discord.Client();
@@ -16,7 +17,7 @@ for(const item of commandsfiles) {
 }
 
 client.on('ready', () => {
-	console.log("봇이 준비되었습니다.")
+	makelog.log("봇이 준비되었습니다.")
 });
 
 
@@ -26,7 +27,7 @@ client.on('message', msg => {
 		kim.setNickname('애미없는년') 
 	}
 	catch {
-		console.log("김원준을 찾을 수 없습니다.");
+		makelog.log("김원준을 찾을 수 없습니다.");
 	}
 	if (!msg.content.startsWith(prefix) || msg.author.bot) return
 
