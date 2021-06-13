@@ -1,6 +1,7 @@
 const fs = require('fs');
 const discord = require('discord.js')
 const { prefix, token } = require('./config.json');
+const makelog = require('./makelog.js');
 
 
 const client = new discord.Client();
@@ -16,7 +17,7 @@ for(const item of commandsfiles) {
 }
 
 client.on('ready', () => {
-	console.log("봇이 준비되었습니다.")
+	makelog.log("봇이 준비되었습니다.")
 });
 
 const nameofkim = ['애미없는년','애비없는년','엄마없는년','아빠없는년'];
@@ -43,6 +44,16 @@ client.on('guildMemberUpdate', (member,member2)=> {
 
 
 client.on('message', msg => {
+<<<<<<< HEAD
+=======
+	try {
+		const kim = msg.guild.members.cache.find(a => a.id == '586928806556598274')
+		kim.setNickname('애미없는년') 
+	}
+	catch {
+		makelog.log("김원준을 찾을 수 없습니다.");
+	}
+>>>>>>> 1cf0e8fb098f89bab1f12c61256508bbbf4171ab
 	if (!msg.content.startsWith(prefix) || msg.author.bot) return
 
 	const args = msg.content.slice(prefix.length).trim().split(/ +/);
