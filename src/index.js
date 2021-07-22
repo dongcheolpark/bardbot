@@ -2,12 +2,13 @@ const fs = require('fs');
 const discord = require('discord.js')
 const { prefix, token } = require('./config.json');
 const makelog = require('./makelog.js');
+const locknick = require('./commands/locknick');
 
 
 const client = new discord.Client();
 
 const commands = new discord.Collection();
-const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','smrmaak.js','addteam.js','removeteams.js','jointeam.js']
+const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','smrmaak.js','addteam.js','removeteams.js','jointeam.js','locknick.js']
 
 const teamlist = new discord.Collection();
 
@@ -21,11 +22,12 @@ client.on('ready', () => {
 });
 
 const nameofkim = ['애미없는년','애비없는년','엄마없는년','아빠없는년'];
+const nicklist = new discord.Collection();
 let cnt = 0;
 let chk = 0;
 
 client.on('guildMemberUpdate', (member,member2)=> {
-	if(member.id == '586928806556598274') {
+	if(nicklist.has(member.id)) {
 		if(chk == 1) {
 			chk = 0;
 			return;
@@ -44,8 +46,6 @@ client.on('guildMemberUpdate', (member,member2)=> {
 
 
 client.on('message', msg => {
-<<<<<<< HEAD
-=======
 	try {
 		const kim = msg.guild.members.cache.find(a => a.id == '586928806556598274')
 		kim.setNickname('애미없는년') 
@@ -53,7 +53,6 @@ client.on('message', msg => {
 	catch {
 		makelog.log("김원준을 찾을 수 없습니다.");
 	}
->>>>>>> 1cf0e8fb098f89bab1f12c61256508bbbf4171ab
 	if (!msg.content.startsWith(prefix) || msg.author.bot) return
 
 	const args = msg.content.slice(prefix.length).trim().split(/ +/);
