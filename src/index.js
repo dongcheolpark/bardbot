@@ -2,7 +2,8 @@ const fs = require('fs');
 const discord = require('discord.js')
 const { prefix, token } = require('./config.json');
 const makelog = require('./makelog.js');
-
+const {playtts} = require('./functions/tts.js')
+const discordTTS = require('discord-tts');
 
 const client = new discord.Client();
 
@@ -44,18 +45,10 @@ client.on('guildMemberUpdate', (member,member2)=> {
 
 
 client.on('message', msg => {
-<<<<<<< HEAD
-=======
-	try {
-		const kim = msg.guild.members.cache.find(a => a.id == '586928806556598274')
-		kim.setNickname('애미없는년') 
-	}
-	catch {
-		makelog.log("김원준을 찾을 수 없습니다.");
-	}
->>>>>>> 1cf0e8fb098f89bab1f12c61256508bbbf4171ab
+	const broadcast = client.voice.createBroadcast();
+	const channelId = msg.member.voice.channelID;
+	const channel = client.channels.cache.get(channelId);
 	if (!msg.content.startsWith(prefix) || msg.author.bot) return
-
 	const args = msg.content.slice(prefix.length).trim().split(/ +/);
 	const commandname = args.shift();
 	const command = commands.get(commandname);
