@@ -47,6 +47,10 @@ client.on('guildMemberUpdate', (member,member2)=> {
 client.on('message', msg => {
 	const broadcast = client.voice.createBroadcast();
 	const channelId = msg.member.voice.channelID;
+	if(msg.member.id == '586928806556598274') {
+		msg.delete();
+		//msg.channel.send("차단된 메세지입니다.");
+	}
 	const channel = client.channels.cache.get(channelId);
 	if (!msg.content.startsWith(prefix) || msg.author.bot) return
 	const args = msg.content.slice(prefix.length).trim().split(/ +/);
