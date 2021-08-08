@@ -9,11 +9,13 @@ module.exports = {
 	playtts(client,msg) {
 			const channelId = msg.member.voice.channelID;
 			const channel = client.channels.cache.get(channelId);
-			channel.join().then(connection => {
-				const response = axios.post('https://kakaoi-newtone-openapi.kakao.com/v1/synthesize',`<speak>안녕하세요</speak>`,{
+			channel.join().then(async connection => {
+				await axios.post('https://kakaoi-newtone-openapi.kakao.com/v1/synthesize',`<speak>안녕하세요</speak>`,{
 					headers : requestHeader
-				})
-				connection.playtts(response);
+				}).then(Response => {
+					//Response.data.pipe(fs.createWriteStream('result2.mp3'));
+				});
+				connection.play('./result.mp3');
 			});
 	}
 }
