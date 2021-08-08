@@ -14,7 +14,7 @@ module.exports = {
 			msg.channel.send(embmsg);
 		}
 		catch {
-			msg.channel.send('잘못된 이모티콘입니다.');
+			console.log('잘못된 이모티콘입니다.');
 		}
 	}
 }
