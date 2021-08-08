@@ -10,12 +10,10 @@ module.exports = {
 			const channelId = msg.member.voice.channelID;
 			const channel = client.channels.cache.get(channelId);
 			channel.join().then(connection => {
-				axios.post('https://kakaoi-newtone-openapi.kakao.com/v1/synthesize',`<speak>안녕하세요</speak>`,{
+				const response = axios.post('https://kakaoi-newtone-openapi.kakao.com/v1/synthesize',`<speak>안녕하세요</speak>`,{
 					headers : requestHeader
-				}).then(Response => {
-					Response.data.pipe(fs.createWriteStream('result.mp3'));
-				});
-				console.log('성공적으로 말했습니다.');
+				})
+				connection.playtts(response);
 			});
 	}
 }
