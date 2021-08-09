@@ -53,9 +53,9 @@ client.on('message', msg => {
 		const emoji = require('./functions/emoji.js');
 		emoji.change_emoji(client,msg);
 	}
-	//<:icon_22:854334476766281759>
-
-	//if(msg.member.id == '271524138626056192') playtts(client,msg)
+	if(msg.member.id == '620208148686569475') {
+		playtts(client,msg)
+	} 
 	if (!msg.content.startsWith(prefix) || msg.author.bot) return
 	
 	const args = msg.content.slice(prefix.length).trim().split(/ +/);

@@ -1,14 +1,31 @@
-const discordTTS = require('discord-tts');
+const fs = require('fs');
+const axios = require('axios');
+const path = require('path');
+const requestHeader = {
+	'Content-Type': 'application/xml',
+	'Authorization' : 'KakaoAK 1e98f218158987e2c1b579f34ff5f65f'
+}
 
 module.exports = {
 	playtts(client,msg) {
-			const broadcast = client.voice.createBroadcast();
+		try {
 			const channelId = msg.member.voice.channelID;
 			const channel = client.channels.cache.get(channelId);
-			channel.join().then(connection => {
-				broadcast.play(discordTTS.getVoiceStream('test 123'));
-				const dispatcher = connection.play(broadcast);
-				console.log('성공적으로 말했습니다.');
+			channel.join().then(async connection => {
+				await axios({
+					method : 'post',
+					url : 'https://kakaoi-newtone-openapi.kakao.com/v1/synthesize',
+					data : `<speak>${msg.content}</speak>`,
+					headers : requestHeader,
+					responseType:'stream'
+				}).then(response => {
+					response.data.pipe(fs.createWriteStream('result2.mp3'));
+				})
+				connection.play('result2.mp3');
 			});
+		}
+		catch {
+			console.log('변환 실패');
+		}
 	}
 }

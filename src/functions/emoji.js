@@ -1,5 +1,3 @@
-const discord = require('discord.js');
-
 module.exports = {
 	change_emoji(client,msg) {
 		try {
@@ -12,11 +10,11 @@ module.exports = {
 				.setTitle(msg.member.nickname)
 				.setImage(botemoji.url)
 				.setColor(msg.member.displayColor)
-			msg.delete();
 			msg.channel.send(embmsg);
+			msg.delete();
 		}
 		catch {
-			msg.channel.send('잘못된 이모티콘입니다.');
+			console.log('잘못된 이모티콘입니다.');
 		}
 	}
 }

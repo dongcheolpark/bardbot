@@ -1445,3 +1445,151 @@ https://speech-api.kakao.com/#speechCompose
 잘못된 이모티콘입니다.
 <:icon_22:854334476766281759>
 
+
+> @ start /home/ubuntu/bardbot
+> node src/index.js
+
+[8/8 16:25:52] 봇이 준비되었습니다.
+바드야 응애
+애응
+바드야 전적 하얀색형광등
+
+https://tenor.com/view/but-why-tho-huh-whatt-me-gif-12565054
+<:1622565629832:849485713287806987>
+잘못된 이모티콘입니다.
+얼리버드
+변환 실패
+섹스
+변환 실패
+아니
+느금마
+앰뒤 오랜만이노
+변환 실패
+롤도 안하고
+변환 실패
+뭐하고 사노
+변환 실패
+혀 생김?
+성대 생김?
+ㅇㅇ
+변환 실패
+ㅠㅠ
+왜또 쳐울어
+변환 실패
+이빨빠진 병시나
+변환 실패
+
+변환 실패
+해윤님..
+변환 실패
+일단 다른 게임을 해봅시다..
+변환 실패
+이런
+통계가
+변환 실패
+말해주네요
+변환 실패
+서든으로 꺼지라네요
+변환 실패
+펙트 벤입니다
+ㅋㅋ
+변환 실패
+팩트 말하지 막세요
+서든은 그래도
+변환 실패
+평타는 치자너
+변환 실패
+롤은
+변환 실패
+여까지...
+변환 실패
+실버2 ㄷㄱㅈ
+바드야 전적 철봉마스터
+변환 실패
+
+ㅋ
+변환 실패
+바드야 전적 숨쉬기마스터
+변환 실패
+
+한판이기면 실2임
+ㅋ
+변환 실패
+한판뎌도 실2임
+변환 실패
+저거는 시발
+몇변 돌렷다고
+ㅋㅋㅋㅋ
+변환 실패
+대리라고 지랄하잖아
+골드 못감?
+변환 실패
+대리지 그럼
+변환 실패
+아
+힘쌔고
+좋은아침
+?
+힘이쎄?
+대리
+변환 실패
+너가?
+ㅎㅇ
+변환 실패
+힘?
+변환 실패
+ㅋㅋㅋㅋ
+변환 실패
+힌대맞고
+변환 실패
+<:icon_22:854334476766281759>
+잘못된 이모티콘입니다.
+염라대왕 만나보고 올놈이
+변환 실패
+?
+힘이쎄?
+변환 실패
+바드야
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:65:11)
+    at Client.emit (events.js:375:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:375:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+잘못된 명령입니다.
+<:icon_22:854334476766281759>
+잘못된 이모티콘입니다.
+ㅋㅋ
+변환 실패
+?
+<:icon_22:854334476766281759>
+잘못된 이모티콘입니다.
+동철
+변환 실패
+나 심심ㅎ
+변환 실패
+들어와방
+잘되는지 보자
+니앰
+니애미보지
+안들려
+바드야 응애
+애응
+바드야 니애미
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:65:11)
+    at Client.emit (events.js:375:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:375:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+잘못된 명령입니다.
