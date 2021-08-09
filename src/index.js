@@ -45,7 +45,6 @@ client.on('guildMemberUpdate', (member,member2)=> {
 
 
 client.on('message', msg => {
-	console.log(msg.content);
 	const broadcast = client.voice.createBroadcast();
 	const channelId = msg.member.voice.channelID;
 	const channel = client.channels.cache.get(channelId);

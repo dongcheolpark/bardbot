@@ -1,3 +1,5 @@
+const discord = require('discord.js');
+
 module.exports = {
 	change_emoji(client,msg) {
 		try {

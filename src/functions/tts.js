@@ -20,8 +20,10 @@ module.exports = {
 					responseType:'stream'
 				}).then(response => {
 					response.data.pipe(fs.createWriteStream('result2.mp3'));
+					connection.play('result2.mp3');
+				}).catch((err) => {
+					console.log('통신 실패');
 				})
-				connection.play('result2.mp3');
 			});
 		}
 		catch {
