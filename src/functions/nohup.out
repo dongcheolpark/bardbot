@@ -1,0 +1,1926 @@
+
+> @ start /home/ubuntu/bardbot
+> node src/index.js
+
+[8/9 2:1:27] 봇이 준비되었습니다.
+변환 실패
+변환 실패
+닉네임을 성공적으로 바꾸었습니다.null
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+잘못된 이모티콘입니다.
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+통신 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+통신 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+MessageEmbed field values may not be empty.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+MessageEmbed field values may not be empty.
+MessageEmbed field values may not be empty.
+MessageEmbed field values may not be empty.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+잘못된 이모티콘입니다.
+통신 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+(node:48496) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 closing listeners added to [VoiceConnection]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+MessageEmbed field values may not be empty.
+변환 실패
+변환 실패
+MessageEmbed field values may not be empty.
+MessageEmbed field values may not be empty.
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+MessageEmbed field values may not be empty.
+변환 실패
+MessageEmbed field values may not be empty.
+MessageEmbed field values may not be empty.
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+MessageEmbed field values may not be empty.
+MessageEmbed field values may not be empty.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+MessageEmbed field values may not be empty.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+닉네임을 성공적으로 바꾸었습니다.null
+닉네임을 성공적으로 바꾸었습니다.null
+닉네임을 성공적으로 바꾸었습니다.null
+닉네임을 성공적으로 바꾸었습니다.null
+잘못된 이모티콘입니다.
+잘못된 이모티콘입니다.
+통신 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+통신 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+MessageEmbed field values may not be empty.
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+잘못된 이모티콘입니다.
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+잘못된 이모티콘입니다.
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:64:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:970:20)

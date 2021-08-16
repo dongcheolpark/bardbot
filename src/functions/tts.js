@@ -11,16 +11,19 @@ module.exports = {
 		try {
 			const channelId = msg.member.voice.channelID;
 			const channel = client.channels.cache.get(channelId);
-			channel.join().then(async connection => {
-				await axios({
+			channel.join().then(connection => {
+				axios({
 					method : 'post',
 					url : 'https://kakaoi-newtone-openapi.kakao.com/v1/synthesize',
 					data : `<speak>${msg.content}</speak>`,
 					headers : requestHeader,
 					responseType:'stream'
 				}).then(response => {
-					response.data.pipe(fs.createWriteStream('result2.mp3'));
-					connection.play('result2.mp3');
+					const writer = fs.createWriteStream('result2.mp3');
+					response.data.pipe(writer);
+					writer.on('close', () => {
+						connection.play('result2.mp3');
+					})
 				}).catch((err) => {
 					console.log('통신 실패');
 				})
