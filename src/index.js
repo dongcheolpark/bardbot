@@ -8,7 +8,7 @@ const discordTTS = require('discord-tts');
 const client = new discord.Client();
 
 const commands = new discord.Collection();
-const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','addteam.js','removeteams.js','jointeam.js']
+const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','addteam.js','removeteams.js','jointeam.js','search.js']
 
 const teamlist = new discord.Collection();
 
