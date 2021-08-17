@@ -8,7 +8,7 @@ const discordTTS = require('discord-tts');
 const client = new discord.Client();
 
 const commands = new discord.Collection();
-const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','smrmaak.js','addteam.js','removeteams.js','jointeam.js']
+const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','addteam.js','removeteams.js','jointeam.js']
 
 const teamlist = new discord.Collection();
 
@@ -42,7 +42,6 @@ client.on('guildMemberUpdate', (member,member2)=> {
 		chk = 1;
 	}
 })
-
 
 client.on('message', msg => {
 	const broadcast = client.voice.createBroadcast();
