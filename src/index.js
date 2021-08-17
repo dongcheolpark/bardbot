@@ -1,14 +1,15 @@
 const fs = require('fs');
-const discord = require('discord.js')
+const discord = require('discord.js');
+const {Intents} = require('discord.js');
 const { prefix, token } = require('./config.json');
 const makelog = require('./makelog.js');
 const {playtts} = require('./functions/tts.js')
 const discordTTS = require('discord-tts');
 
-const client = new discord.Client();
+const client = new discord.Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
 const commands = new discord.Collection();
-const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','smrmaak.js','addteam.js','removeteams.js','jointeam.js','search.js']
+const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','addteam.js','removeteams.js','jointeam.js','search.js','currentgame.js']
 
 const teamlist = new discord.Collection();
 
@@ -43,11 +44,8 @@ client.on('guildMemberUpdate', (member,member2)=> {
 	}
 })
 
-
 client.on('message', msg => {
-	const broadcast = client.voice.createBroadcast();
 	const channelId = msg.member.voice.channelID;
-	const channel = client.channels.cache.get(channelId);
 	if(msg.content.startsWith('<')) {
 		const emoji = require('./functions/emoji.js');
 		emoji.change_emoji(client,msg);
