@@ -54,5 +54,26 @@ module.exports = {
             .setThumbnail(tiermedal)
             .addFields(makeTierField(SummonerInfo));
         return embmsg;
+    },
+    async makeCurrentGameEmbedMessage(name) {
+        let message = new discord.MessageEmbed()
+            .setColor("#0099ff")
+            .setURL(`http://fow.kr/find/${encodeURI(name)}`)
+            .setAuthor('FOW.KR','','http://fow.kr/')
+        let data = await fow.GetCurrentGame(name).catch(Error => {
+            message = '이 플레이어는 게임중이 아닙니다.';
+        })
+        if(data == false) {
+            message = '이 플레이어는 게임중이 아닙니다.';
+            return message;
+        }
+        for(let i = 0;i<5;i++) {
+            message.addFields(
+                {name : `[${data.resultTier[i]}]  ${data.resultName[i]}`,value : data.resultRate[i],inline : true},
+                {name : `${data.resultName[5+i]}  [${data.resultTier[5+i]}]`,value : data.resultRate[5+i],inline : true},
+                {name : '\u200B',value : '\u200B'},
+            )
+        }
+        return message;
     }
 }
