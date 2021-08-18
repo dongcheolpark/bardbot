@@ -78,6 +78,7 @@ module.exports = {
         resultTier.push(data2(`#spec_s_r${i} > div:nth-child(6) > span:nth-child(1)`).text());
       }
       res = {resultName,resultRate,resultTier};
+      console.log(res);
       return res;
     }
     catch{

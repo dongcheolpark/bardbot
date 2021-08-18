@@ -63,17 +63,21 @@ module.exports = {
         let data = await fow.GetCurrentGame(name).catch(Error => {
             message = '이 플레이어는 게임중이 아닙니다.';
         })
-        if(data == false) {
-            message = '이 플레이어는 게임중이 아닙니다.';
+        try {
+            if(data == false) {
+                return '이 플레이어는 게임중이 아닙니다.';
+            }
+            for(let i = 0;i<5;i++) {
+                message.addFields(
+                    {name : `[${data.resultTier[i]}]  ${data.resultName[i]}`,value : data.resultRate[i] == '' ? '\u200B' : data.resultRate[i],inline : true},
+                    {name : `${data.resultName[5+i]}  [${data.resultTier[5+i]}]`,value :data.resultRate[5+i] == '' ? '\u200B' : data.resultRate[5+i],inline : true},
+                    {name : '\u200B',value : '\u200B'},
+                )
+            }
             return message;
         }
-        for(let i = 0;i<5;i++) {
-            message.addFields(
-                {name : `[${data.resultTier[i]}]  ${data.resultName[i]}`,value : data.resultRate[i],inline : true},
-                {name : `${data.resultName[5+i]}  [${data.resultTier[5+i]}]`,value : data.resultRate[5+i],inline : true},
-                {name : '\u200B',value : '\u200B'},
-            )
+        catch {
+            return '오류가 발생했습니다';
         }
-        return message;
     }
 }
