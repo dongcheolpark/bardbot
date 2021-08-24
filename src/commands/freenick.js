@@ -1,14 +1,18 @@
 const auth = require("../functions/auth.js")
-const listout = require("../functions/teamlistout")
 
 module.exports = {
-	name : "닉고정",
+	name : "닉해제",
 	execute(msg,args,list) {
 		if(!(auth.admin(msg))) {
 			msg.channel.send("권한이 없습니다.")
 			return;
 		}
 		const a = msg.guild.members.cache.find(a => a.nickname == args[0])
-		list.push(a.id);
+		if(list.has(a.id)) {
+			msg.channel.send("리스트에 없습니다.");
+		}
+		else {
+			list.splice(list.findIndex(a.id),1);
+		}
 	}
 }
