@@ -8,6 +8,10 @@ module.exports = {
 	name : "검색",
 	execute(msg,args) {
 		try {
+			if(msg.member.roles.cache.has('878149825286266911')) {
+				msg.channel.send("권한이 없습니다.");
+				return;
+			}
 			if(args[0] == null) {
 				msg.channel.send("검색어가 입력되지 않았습니다.");
 				return;
