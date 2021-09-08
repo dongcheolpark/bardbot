@@ -29,3 +29,8 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /home/ubuntu/.npm/_logs/2021-08-08T11_52_47_603Z-debug.log
+
+> @ start /home/ubuntu/bardbot
+> node src/index.js
+
+[9/8 13:40:16] 봇이 준비되었습니다.
