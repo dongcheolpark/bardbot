@@ -15,7 +15,7 @@ module.exports = {
 				axios({
 					method : 'post',
 					url : 'https://kakaoi-newtone-openapi.kakao.com/v1/synthesize',
-					data : `<speak>${msg.content}</speak>`,
+					data : `<speak><voice name = "WOMAN_DIALOG_BRIGHT">${msg.content}</voice></speak>`,
 					headers : requestHeader,
 					responseType:'stream'
 				}).then(response => {
