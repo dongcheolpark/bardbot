@@ -17,9 +17,23 @@ for(const item of commandsfiles) {
 	const command = require(`./commands/${item}`);
 	commands.set(command.name,command);	
 }
+let Now_Date = new Date();
 
 client.on('ready', () => {
 	makelog.log("봇이 준비되었습니다.")
+	Now_Date = new Date();
+	setInterval(function() {
+		Now_Date = new Date();
+		const discharge_date = new Date(2023,6,3);
+		const icmc = client.guilds.cache.find(a => a.id == "806860385659519086");
+		var gap = discharge_date - Now_Date;
+		var day = Math.floor(gap / (1000 * 60 * 60 * 24));
+		var hour = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		var min = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
+		var sec = Math.floor((gap % (1000 * 60)) / 1000);
+		let nick = `${day}일 ${hour}시간 ${min}분 ${sec}초`;
+		icmc.members.cache.find(a => a.id == "806387855244918785").setNickname(nick);
+	},2000);
 });
 
 const list = [];
