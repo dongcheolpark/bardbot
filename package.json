@@ -11,11 +11,11 @@
     "axios": "^0.21.1",
     "axois": "*",
     "cheerio": "*",
-    "discord-tts": "^1.1.0",
+    "discord-tts": "^1.2.1",
     "discord.js": "^12.5.3",
-    "ffmpeg-static": "^4.3.0",
+    "ffmpeg-static": "^4.4.1",
     "form-data": "^4.0.0",
     "google-tts-api": "^2.0.2",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.15"
   }
 }

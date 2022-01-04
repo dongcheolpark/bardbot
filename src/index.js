@@ -22,6 +22,7 @@ let Now_Date = new Date();
 client.on('ready', () => {
 	makelog.log("봇이 준비되었습니다.")
 	Now_Date = new Date();
+<<<<<<< HEAD
 	const nick_change = function() {
 		const discharge_date = new Date(2023,6,3);
 		const icmc = client.guilds.cache.find(a => a.id == "806860385659519086");
@@ -31,10 +32,20 @@ client.on('ready', () => {
 		icmc.members.cache.find(a => a.id == "806387855244918785").setNickname(`D-${date/(1000*60*60*24)}`);
 	}
 	nick_change();
+=======
+>>>>>>> caa408b4e9b84937af10217bf99f671cecd99c5c
 	setInterval(function() {
 		Now_Date = new Date();
-		nick_change();
-	},20000);
+		const discharge_date = new Date(2023,6,3);
+		const icmc = client.guilds.cache.find(a => a.id == "806860385659519086");
+		var gap = discharge_date - Now_Date;
+		var day = Math.floor(gap / (1000 * 60 * 60 * 24));
+		var hour = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		var min = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
+		var sec = Math.floor((gap % (1000 * 60)) / 1000);
+		let nick = `${day}일 ${hour}시간 ${min}분 ${sec}초`;
+		icmc.members.cache.find(a => a.id == "806387855244918785").setNickname(nick);
+	},2000);
 });
 
 const list = [];

@@ -12,8 +12,8 @@ module.exports = {
 				.setTitle(msg.member.nickname)
 				.setImage(botemoji.url)
 				.setColor(msg.member.displayColor)
-			msg.delete();
 			msg.channel.send(embmsg);
+			msg.delete();
 		}
 		catch {
 			console.log('잘못된 이모티콘입니다.');
