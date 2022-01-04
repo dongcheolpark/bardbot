@@ -9,7 +9,7 @@ const discordTTS = require('discord-tts');
 const client = new discord.Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
 const commands = new discord.Collection();
-const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','addteam.js','removeteams.js','jointeam.js','search.js','currentgame.js']
+const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','addteam.js','removeteams.js','jointeam.js','search.js','locknick.js','freenick.js']
 
 const teamlist = new discord.Collection();
 
@@ -22,25 +22,12 @@ client.on('ready', () => {
 	makelog.log("봇이 준비되었습니다.")
 });
 
-const nameofkim = ['애미없는년','애비없는년','엄마없는년','아빠없는년'];
-let cnt = 0;
-let chk = 0;
+const list = [];
 
 client.on('guildMemberUpdate', (member,member2)=> {
-	if(member.id == '586928806556598274') {
-		if(chk == 1) {
-			chk = 0;
-			return;
-		}
-		member.setNickname(nameofkim[cnt]);
-		if(cnt == nameofkim.length-1) {
-			cnt = 0;
-		}
-		else {
-			cnt++;
-		}
+	if(list.includes(member.id)) {
+		member.setNickname(`불건전한소환사명${list.findIndex(member.id) + 1}`);
 		console.log("닉네임을 성공적으로 바꾸었습니다." + member2.nickname);
-		chk = 1;
 	}
 })
 
@@ -53,13 +40,14 @@ client.on('message', msg => {
 	if(msg.member.id == '620208148686569475') {
 		playtts(client,msg)
 	} 
+
 	if (!msg.content.startsWith(prefix) || msg.author.bot) return
 	
 	const args = msg.content.slice(prefix.length).trim().split(/ +/);
 	const commandname = args.shift();
 	const command = commands.get(commandname);
 	try {
-		command.execute(msg,args,teamlist);
+		command.execute(msg,args,list);
 	}
 	catch(error) {
 		console.log(error);
