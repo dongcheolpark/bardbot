@@ -18716,3 +18716,83 @@ TypeError: Cannot read property 'execute' of undefined
 변환 실패
 잘못된 이모티콘입니다.
 통신 실패
+
+> @ start /home/ubuntu/bardbot
+> node src/index.js
+
+[1/4 12:39:4] 봇이 준비되었습니다.
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:50:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:978:20)
+변환 실패
+변환 실패
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:50:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:978:20)
+변환 실패
+TypeError: Cannot read property 'execute' of undefined
+    at Client.<anonymous> (/home/ubuntu/bardbot/src/index.js:50:11)
+    at Client.emit (events.js:400:28)
+    at MessageCreateAction.handle (/home/ubuntu/bardbot/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (/home/ubuntu/bardbot/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+    at WebSocket.onMessage (/home/ubuntu/bardbot/node_modules/ws/lib/event-target.js:132:16)
+    at WebSocket.emit (events.js:400:28)
+    at Receiver.receiverOnMessage (/home/ubuntu/bardbot/node_modules/ws/lib/websocket.js:978:20)
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+변환 실패
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+잘못된 이모티콘입니다.
+통신 실패
+
+> @ start /home/ubuntu/bardbot
+> node src/index.js
+
+[1/4 16:18:26] 봇이 준비되었습니다.
