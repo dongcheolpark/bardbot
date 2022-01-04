@@ -33,6 +33,7 @@ client.on('ready', () => {
 	setInterval(function() {
 		if(Now_Date.getDate() != new Date().getDate()) {
 			nick_change();
+			Now_Date = new Date();
 		}
 	},3600000);
 });
