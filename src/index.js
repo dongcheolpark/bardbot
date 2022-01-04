@@ -26,7 +26,8 @@ client.on('ready', () => {
 		const discharge_date = new Date(2023,6,3);
 		const icmc = client.guilds.cache.find(a => a.id == "806860385659519086");
 		console.log(discharge_date.getTime());
-		let date = discharge_date.getTime() - Now_Date.getTime();
+		let date = new Date();
+		date.setTime(discharge_date.getTime() - Now_Date.getTime());
 		icmc.members.cache.find(a => a.id == "806387855244918785").setNickname(`D-${date/(1000*60*60*24)}`);
 	}
 	nick_change();
