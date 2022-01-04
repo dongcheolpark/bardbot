@@ -27,15 +27,13 @@ client.on('ready', () => {
 		const icmc = client.guilds.cache.find(a => a.id == "806860385659519086");
 		console.log(discharge_date.getTime());
 		let date = discharge_date.getTime() - Now_Date.getTime();
-		icmc.members.cache.find(a => a.id == "806387855244918785").setNickname(`D-${Math.ceil(date/(1000*60*60*24))}`);
+		icmc.members.cache.find(a => a.id == "806387855244918785").setNickname(`D-${date/(1000*60*60*24)}`);
 	}
 	nick_change();
 	setInterval(function() {
-		if(Now_Date.getDate() != new Date().getDate()) {
-			nick_change();
-			Now_Date = new Date();
-		}
-	},3600000);
+		Now_Date = new Date();
+		nick_change();
+	},20000);
 });
 
 const list = [];
