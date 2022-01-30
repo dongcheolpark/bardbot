@@ -13,6 +13,15 @@ const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','addteam.js','removeteam
 
 const teamlist = new discord.Collection();
 
+class _discharge {
+	constructor(a,b) {
+		this.id = a;
+		this.date = b;
+	}
+}
+
+var discharge = [new _discharge("806387855244918785",new Date(2023,6,3)),new _discharge("442335669453455363",new Date(2023,7,7))];
+
 for(const item of commandsfiles) {
 	const command = require(`./commands/${item}`);
 	commands.set(command.name,command);	
@@ -20,32 +29,23 @@ for(const item of commandsfiles) {
 let Now_Date = new Date();
 
 client.on('ready', () => {
-	makelog.log("봇이 준비되었습니다.")
 	Now_Date = new Date();
-<<<<<<< HEAD
-	const nick_change = function() {
-		const discharge_date = new Date(2023,6,3);
-		const icmc = client.guilds.cache.find(a => a.id == "806860385659519086");
-		console.log(discharge_date.getTime());
-		let date = new Date();
-		date.setTime(discharge_date.getTime() - Now_Date.getTime());
-		icmc.members.cache.find(a => a.id == "806387855244918785").setNickname(`D-${date/(1000*60*60*24)}`);
-	}
-	nick_change();
-=======
->>>>>>> caa408b4e9b84937af10217bf99f671cecd99c5c
 	setInterval(function() {
 		Now_Date = new Date();
-		const discharge_date = new Date(2023,6,3);
-		const icmc = client.guilds.cache.find(a => a.id == "806860385659519086");
-		var gap = discharge_date - Now_Date;
-		var day = Math.floor(gap / (1000 * 60 * 60 * 24));
-		var hour = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-		var min = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
-		var sec = Math.floor((gap % (1000 * 60)) / 1000);
-		let nick = `${day}일 ${hour}시간 ${min}분 ${sec}초`;
-		icmc.members.cache.find(a => a.id == "806387855244918785").setNickname(nick);
+		discharge.forEach((item) => {
+			const discharge_date = item.date;
+			const icmc = client.guilds.cache.find(a => a.id == "806860385659519086");
+			var gap = discharge_date - Now_Date;
+			var day = Math.floor(gap / (1000 * 60 * 60 * 24));
+			var hour = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var min = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
+			var sec = Math.floor((gap % (1000 * 60)) / 1000);
+			let nick = `${day}일 ${hour}시간 ${min}분 ${sec}초`;
+			icmc.members.cache.find(a => a.id == item.id).setNickname(nick);
+
+		})
 	},2000);
+	makelog.log("봇이 준비되었습니다.")
 });
 
 const list = [];

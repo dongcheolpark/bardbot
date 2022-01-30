@@ -29,15 +29,15 @@ module.exports = {
     ); 
     const data = cheerio.load(response.data);
     let url = 'http:'
-    let a = data('body > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div.table_summary > div:nth-child(2) > div:nth-child(1) > img').attr('src');
+    let a = data('body > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div.table_summary > div:nth-child(2) > div:nth-child(1) > img').attr('src');
     url += a;
     return url;
   },
   async GetSummonerInfo(name) {
     try {
       const data = await getFow(name)
-      const soloRank = data('body > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div.table_summary > div:nth-child(2) > div:nth-child(2)').text();
-      const flexRank = data('body > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div.table_summary > div:nth-child(4) > div:nth-child(2)').text();
+      const soloRank = data('body > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div.table_summary > div:nth-child(2) > div:nth-child(2)').text();
+      const flexRank = data('body > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div.table_summary > div:nth-child(4) > div:nth-child(2)').text();
       return {
         soloRank,
         flexRank
