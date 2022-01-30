@@ -39,12 +39,11 @@ client.on('ready', () => {
 			var day = Math.floor(gap / (1000 * 60 * 60 * 24));
 			var hour = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 			var min = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
-			var sec = Math.floor((gap % (1000 * 60)) / 1000);
-			let nick = `${day}일 ${hour}시간 ${min}분 ${sec}초`;
+			let nick = `${day}일 ${hour}시간 ${min}분`;
 			icmc.members.cache.find(a => a.id == item.id).setNickname(nick);
 
 		})
-	},2000);
+	},60000);
 	makelog.log("봇이 준비되었습니다.")
 });
 
