@@ -1,4 +1,6 @@
 config.json
-node_modules
+
 result2.mp3
 nohup.out
+
+node_modules/
