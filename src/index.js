@@ -14,13 +14,15 @@ const commandsfiles = ['ping.js','dmddo.js','wjswjr.js','addteam.js','removeteam
 const teamlist = new discord.Collection();
 
 class _discharge {
-	constructor(a,b) {
+	constructor(a,b,c) {
 		this.id = a;
 		this.date = b;
+		this.name = c;
 	}
 }
 
-var discharge = [new _discharge("806387855244918785",new Date(2023,6,3)),new _discharge("442335669453455363",new Date(2023,7,7))];
+var discharge = [new _discharge("806387855244918785",new Date(2023,6,3),'이성민'),
+				 new _discharge("442335669453455363",new Date(2023,7,7),'최규범')];
 
 for(const item of commandsfiles) {
 	const command = require(`./commands/${item}`);
@@ -39,7 +41,7 @@ client.on('ready', () => {
 			var day = Math.floor(gap / (1000 * 60 * 60 * 24));
 			var hour = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 			var min = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
-			let nick = `${day}일 ${hour}시간 ${min}분`;
+			let nick = `${day}일 ${hour}시간 ${min}분 ${item.name}`;
 			icmc.members.cache.find(a => a.id == item.id).setNickname(nick);
 
 		})
