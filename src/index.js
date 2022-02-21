@@ -21,8 +21,7 @@ class _discharge {
 	}
 }
 
-var discharge = [new _discharge("806387855244918785",new Date(2023,6,3),'이성민'),
-				 new _discharge("442335669453455363",new Date(2023,7,7),'최규범')];
+var discharge = [new _discharge("442335669453455363",new Date(2023,7,7),'최규범')];
 
 for(const item of commandsfiles) {
 	const command = require(`./commands/${item}`);
