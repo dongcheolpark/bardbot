@@ -21,7 +21,7 @@ class _discharge {
 	}
 }
 
-var discharge = [new _discharge("442335669453455363",new Date(2023,7,7),'최규범')
+var discharge = [new _discharge("442335669453455363",new Date(2023,7,7),'최규범'),
 				 new _discharge("397367710402478081",new Date(2023,7,20)),'오종현'];
 
 for(const item of commandsfiles) {
